@@ -132,13 +132,13 @@ print("- MEDIANA -")
 valor_medio = int(l/2)
 
 mediana_health = (health_points[valor_medio] + health_points[valor_medio + 1])/2
-print("La mediana de las notas de mates es: {}".format(mediana_health))
+print("La mediana de los hp es: {}".format(mediana_health))
 
 mediana_attack = (attack_rating[valor_medio] + attack_rating[valor_medio + 1])/2
-print("La mediana de las notas de lectura es: {}".format(mediana_attack))
+print("La mediana del ataque es: {}".format(mediana_attack))
 
 mediana_defense = (defense_rating[valor_medio] + defense_rating[valor_medio + 1])/2
-print("La mediana de las notas de escritura  es: {}".format(mediana_defense))
+print("La mediana de la defensa  es: {}".format(mediana_defense))
 
 # 5.MODA
 print("- MODA -")
