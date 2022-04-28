@@ -22,25 +22,31 @@ print("Cantidad de observaciones = {}".format(l))
 #2. Valores mínimos y máximos
 
 print("- VALORES MÁXIMOS -")
-max_value = None
+max_value_hp = None
 
 for num in health_points:
-    if (max_value is None or num > max_value):
-        max_value = num
+    if (max_value_hp is None or num > max_value_hp):
+        max_value_hp = num
 
-print('Mejor HP:', max_value)
+print('Mejor HP:', max_value_hp)
+
+max_value_attack = None
 
 for num in attack_rating:
-    if (max_value is None or num > max_value):
-        max_value = num
+    if (max_value_attack is None or num > max_value_attack):
+        max_value_attack = num
 
-print('Mejor Ataque:', max_value)
+print('Mejor Ataque:', max_value_attack)
+
+max_value_defense = None
 
 for num in defense_rating:
-    if (max_value is None or num > max_value):
-        max_value = num
+    if (max_value_defense is None or num > max_value_defense):
+        max_value_defense = num
 
-print("Mejor Defensa:" , max_value)
+print("Mejor Defensa:" , max_value_defense)
+
+max_value = None
 
 for num in SpAttack:
     if (max_value is None or num > max_value):
@@ -62,25 +68,31 @@ print('Mejor nota velocidad:', max_value)
 
 print(" -VALORES MÍNIMOS- ")
 
-min_value = None
+min_value_health = None
 
 for num in health_points:
-    if (min_value is None or num > min_value):
-        min_value = num
+    if (min_value_health is None or num > min_value_health):
+        min_value_health = num
 
-print('Mejor HP:', min_value)
+print('peor HP:', min_value_health)
+
+min_value_attack = None
 
 for num in attack_rating:
-    if (min_value is None or num > min_value):
-        min_value = num
+    if (min_value_attack is None or num > min_value_attack):
+        min_value_attack = num
 
-print('Mejor Ataque:', max_value)
+print('peor Ataque:', min_value_attack)
+
+min_value_defense = None
 
 for num in defense_rating:
-    if (min_value is None or num > min_value):
-        min_value = num
+    if (min_value_defense is None or num > min_value_defense):
+        min_value_defense = num
 
 print("Mejor Defensa:" , max_value)
+
+min_value= None
 
 for num in SpAttack:
     if (min_value is None or num > min_value):
