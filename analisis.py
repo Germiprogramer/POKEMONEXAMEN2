@@ -164,7 +164,7 @@ for numero in diccionario_conteo_health:
         frecuencia_mayor = diccionario_conteo_health[numero]
 
 conteo = diccionario_conteo_health[str(numero_mas_repetido)]
-print(f"La nota de mates más repetida es {numero_mas_repetido} (encontrado {conteo} ocasiones)")
+print(f"La stat de hp más repetida es {numero_mas_repetido} (encontrado {conteo} ocasiones)")
 
 
 
@@ -189,7 +189,7 @@ for numero in diccionario_conteo_attack:
         frecuencia_mayor = diccionario_conteo_attack[numero]
 
 conteo = diccionario_conteo_attack[str(numero_mas_repetido)]
-print(f"La nota de lectura más repetida es {numero_mas_repetido} (encontrado {conteo} ocasiones)")
+print(f"La stat de ataque más repetida es {numero_mas_repetido} (encontrado {conteo} ocasiones)")
 
 
 
@@ -214,4 +214,4 @@ for numero in diccionario_conteo_escritura:
         frecuencia_mayor = diccionario_conteo_escritura[numero]
 
 conteo = diccionario_conteo_escritura[str(numero_mas_repetido)]
-print(f"La nota de escritura más repetida es {numero_mas_repetido} (encontrado {conteo} ocasiones)")
+print(f"La stat de defensa más repetida es {numero_mas_repetido} (encontrado {conteo} ocasiones)")
