@@ -10,5 +10,9 @@ A la hora de analizar un dataset, lo primero es sacar los datos relevantes que l
 
 En la segunda parte, se calculan datos como el rango, la desviación típica y los valores extremos. Entre otras cosas, estos datos sirven para averiguar la variedad de la muestra de datos, y la relación que tienen estos entre sí. Esto se encuentra en dispersion.py.
 
+En base a los datos recabados, se realizan gráficos para dar un mayor sentido a la muestra. Esto se encuentra en grafico.py.
+
+Por último, cabe destacar que en base al analisis realizado, hay una gran diferencia de poder entre algunos pokemon, denotandose en los altos valores de la desviación típicas respecto al rango o a la gran cantidad de outliers.
+
 
 
